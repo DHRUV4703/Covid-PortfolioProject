@@ -5,16 +5,16 @@ Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, 
 
 */
 
---SELECT *
---FROM [Portfolio Project]..CovidDeaths
---WHERE continent is NOT NULL
---ORDER BY 3,4
+SELECT *
+FROM [Portfolio Project]..CovidDeaths
+WHERE continent is NOT NULL
+ORDER BY 3,4
 
---SELECT *
---FROM [Portfolio Project]..CovidVaccinations
---ORDER BY 3,4
+SELECT *
+FROM [Portfolio Project]..CovidVaccinations
+ORDER BY 3,4
 
---Select Data that we are going to be used
+--Selecting Data that we are going to be used
 
 SELECT Location,date,total_cases,new_cases,total_deaths,population
 FROM [Portfolio Project]..CovidDeaths
